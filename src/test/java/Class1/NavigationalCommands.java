@@ -13,11 +13,15 @@ public class NavigationalCommands {
         Thread.sleep(2000);
         driver.navigate().to("https://www.facebook.com");
         Thread.sleep(2000);
+        System.out.println(driver.getTitle());
+
+
 
        driver.navigate().back();
         Thread.sleep(2000);
         driver.navigate().forward();
         driver.close();
+
 
 
 
